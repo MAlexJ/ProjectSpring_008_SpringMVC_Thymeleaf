@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.malexj."})
+@ComponentScan(basePackages = "com.malexj")
 @Import(ThymeleafConfig.class)
 public class ApplicationContext extends WebMvcConfigurerAdapter {
 
